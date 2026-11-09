@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">每日服藥追蹤</string>
+
+    <!-- Top App Bar -->
+    <string name="pack_subtitle">第 %1$d 排 • 剩餘 %2$d / %3$d 粒</string>
+    <string name="cd_configure_pack_size">設定藥排容量</string>
+
+    <!-- Status Summary Card -->
+    <string name="today_dose_taken">今日已於 %1$s 服用 (第 %2$d 粒)</string>
+    <string name="today_dose_not_taken">今日尚未紀錄服藥</string>
+    <string name="pills_remaining_title">剩餘 %1$d 粒</string>
+    <string name="pills_taken_breakdown">第 %3$d 排：已服 %1$d / %2$d 粒</string>
+    <string name="next_pack_info">下一排：%1$d 粒</string>
+
+    <!-- Pack Complete Banner -->
+    <string name="pack_complete_title">第 %1$d 排已完成！</string>
+    <string name="pack_complete_body">此排共 %1$d 粒藥已全部服完。點擊下方存檔此排紀錄，並開始新一排（%2$d 粒）。</string>
+    <string name="btn_start_new_pack">開始新一排（%1$d 粒）</string>
+
+    <!-- Blister Pack View -->
+    <string name="blister_header_pack">第 %1$d 排 • %2$d 粒</string>
+    <string name="blister_header_hint">點擊藥丸標示已服</string>
+    <string name="cd_slot_taken">第 %1$d 粒藥，已服用，空槽。點擊復原。</string>
+    <string name="cd_slot_available">第 %1$d 粒藥，未服用。點擊標示已服。</string>
+    <string name="slot_status_full">未服</string>
+
+    <!-- Current Pack Log -->
+    <string name="current_pack_log_title">當前藥排紀錄（第 %1$d 排）</string>
+    <string name="current_pack_log_count">已服 %1$d/%2$d 粒</string>
+    <string name="current_pack_log_empty">第 %1$d 排仲未有服藥紀錄。服用後請點擊上方藥排嘅藥丸。</string>
+    <string name="dose_record_subtitle">已服用第 %1$d 粒</string>
+
+    <!-- Past Packs History -->
+    <string name="past_packs_title">歷史藥排紀錄 (%1$d)</string>
+    <string name="past_packs_empty">完成一排藥後，過往嘅服藥時間紀錄會自動存檔喺呢度。</string>
+    <string name="past_pack_card_title">第 %1$d 排（已服 %2$d/%3$d 粒）</string>
+    <string name="past_pack_completed_date">完成於 %1$s</string>
+    <string name="cd_collapse">收起</string>
+    <string name="cd_expand">展開</string>
+    <string name="past_pack_capsule_label">第 %1$d 粒</string>
+
+    <!-- Dialogs -->
+    <!-- Restore Capsule Dialog -->
+    <string name="dialog_restore_title">復原第 %1$d 粒藥？</string>
+    <string name="dialog_restore_line1">呢粒藥標示為以下時間服用：</string>
+    <string name="dialog_restore_line2">你確定要取消此紀錄，將第 %1$d 粒藥放回藥排？</string>
+    <string name="btn_restore_capsule">復原藥丸</string>
+
+    <!-- Pack Size Settings Dialog -->
+    <string name="dialog_settings_title">設定藥排容量</string>
+    <string name="dialog_settings_desc">設定每排藥丸數量（1 至 60 粒，預設為 12 粒）。</string>
+    <string name="dialog_settings_active_info">當前藥排：%1$d 粒 • 下一排：%2$d 粒</string>
+    <string name="dialog_settings_field_label">每排藥丸數量</string>
+    <string name="dialog_settings_presets">快速選擇：</string>
+
+    <!-- Pack Size Conflict Dialog -->
+    <string name="dialog_conflict_title">藥排使用中</string>
+    <string name="dialog_conflict_line1">當前藥排已服用 %1$d / %2$d 粒藥。</string>
+    <string name="dialog_conflict_line2">請選擇如何套用新容量（%1$d 粒）：</string>
+    <string name="btn_apply_next_pack">套用至下一排（%1$d 粒）</string>
+    <string name="btn_archive_start_now">存檔當前藥排並立即開始新一排</string>
+
+    <!-- Common Buttons -->
+    <string name="btn_save">儲存</string>
+    <string name="btn_cancel">取消</string>
+</resources>
